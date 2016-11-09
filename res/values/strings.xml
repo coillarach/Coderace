@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">CodeRace</string>
+    <string name="server_url">http://www.coderace.co.uk/2/android/</string>
+    <string name="error_internet">Coderace server cannot be reached</string>
+    <string name="title_activity_fetch">Fetching data</string>
+    <string name="wait_message"><b>Please wait&#8230;</b></string>
+    <string name="dummy_time">00:00</string>
+    <string name="not_started_message">Game starts in</string>
+    <string name="game_over">Game over</string>
+    <string name="code_hint">Enter code</string>
+    
+    <string name="action_claim"><b>Claim</b></string>
+    <string name="action_close"><b>Close</b></string>
+    <string name="action_cancel"><b>Cancel</b></string>
+    <string name="action_logout"><b>Log out</b></string>
+    <string name="action_status"><b>Show status</b></string>
+    <string name="action_chat"><b>View messages</b></string>
+    <string name="action_players"><b>Show players</b></string>
+    <string name="action_noplayers"><b>Hide players</b></string>
+    <string name="action_send"><b>Send</b></string>
+    <string name="action_help"><b>Help</b></string>
+    
+    <!-- Login -->
+    
+    <!-- Status -->
+    <string name="game_status"><b>Game status</b></string>
+    
+    <!-- Chat -->
+    <string name="chat_title"><b>Team chat</b></string>
+    
+    
+</resources>

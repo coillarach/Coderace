@@ -1,0 +1,51 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HelpActivity" >
+
+	<LinearLayout
+        android:id="@+id/mainHelp"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        >
+        
+	    <LinearLayout
+	        android:id="@+id/helpTopBar"
+	        android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/general_background"
+	        >
+        
+		<ImageButton 
+		    android:id="@+id/exit_help_button"
+       		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:contentDescription="@string/action_close"
+    		android:layout_margin="10dp"
+    		style="@style/controlStyle"
+   			android:src="@drawable/exit"
+   			/>
+		
+		<TextView 
+		    android:id="@+id/helpTitle"
+		    android:gravity="center"
+		    android:layout_weight="1"
+			android:layout_width="0dip"
+		    android:layout_height="match_parent"
+		    android:text="@string/action_help"
+		    android:textSize="24sp"
+		    android:paddingRight="28dp"
+		    />
+			
+		</LinearLayout>
+			
+   		<WebView 
+		    android:id="@+id/helpView"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="1"
+		    />
+
+	</LinearLayout>		
+</merge>

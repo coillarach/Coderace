@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+android:id/checkedBackground" android:drawable="@drawable/control_checked_background" />
+    <item android:id="@+android:id/checkedImage" android:drawable="@drawable/players" />
+</layer-list>

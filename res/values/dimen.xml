@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <dimen name="titleFont">18sp</dimen>
+        <dimen name="mediumFont">16sp</dimen>
+        <dimen name="smallFont">14sp</dimen>
+        <dimen name="loginField">150sp</dimen>
+        <dimen name="logoutField">100sp</dimen>
+        <dimen name="tickerField">80sp</dimen>
+        
+        <dimen name="countdown_width">84dp</dimen>
+        <dimen name="control_width">42dp</dimen>
+    </resources>

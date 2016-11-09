@@ -1,0 +1,26 @@
+<resources>
+
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="white">#ffffff</color>
+    
+    <color name="general_background">#0099cc</color>
+    <color name="black_overlay">#cc000000</color>
+    <color name="light_overlay">#ccffffff</color>
+    <color name="control_background">#bbffffff</color>
+    <color name="control_active_background">#bb319DEB</color>
+    <color name="control_checked_background">#bbFFDA47</color>
+    <color name="control_border">#3a3a3a</color>
+    <color name="light_background">#ffffff</color>
+    <color name="dark_text">#000000</color>
+    <color name="light_text">#ffffff</color>
+    <color name="button_background">#fafafa</color>
+    <color name="button_active_background">#319DEB</color>
+    <color name="my_team">#ff0000</color>
+    <color name="my_team_background">#88ff0000</color>
+    <color name="other_teams">#0000ff</color>
+    <color name="other_teams_background">#880000ff</color>
+    <color name="no_team">#ffffff</color>
+        
+</resources>

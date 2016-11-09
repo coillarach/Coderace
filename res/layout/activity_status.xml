@@ -1,0 +1,51 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StatusActivity" >
+
+	<RelativeLayout
+        android:id="@+id/mainStatus"
+       	android:background="@color/general_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+	    <RelativeLayout 
+	        android:id="@+id/innerStatus"
+	        android:background="@color/light_overlay"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true" >
+         
+        <TextView
+         	android:id="@+id/statusLabel"
+	    	android:text="@string/game_status"
+    		android:textColor="@color/dark_text"
+    		android:textSize="@dimen/titleFont"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_centerHorizontal="true"
+	    	android:gravity="center" />
+         
+	    <TableLayout 
+    	    android:id="@+id/content"
+	        android:paddingTop="10dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+    		android:layout_centerHorizontal="true"
+			android:layout_below="@id/statusLabel" 
+			xmlns:android="http://schemas.android.com/apk/res/android">
+		</TableLayout>
+       </RelativeLayout>
+       
+		<ImageButton 
+		    android:id="@+id/status_button"
+       		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:contentDescription="@string/action_logout"
+    		android:layout_marginTop="10dp"
+    		android:layout_marginLeft="10dp"
+       	    android:layout_alignLeft="@id/main_content"
+       	    android:layout_alignTop="@id/main_content"
+    		style="@style/controlStyle"
+   			android:src="@drawable/exit"/>
+	</RelativeLayout>
+</merge>
